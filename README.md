@@ -6,3 +6,6 @@ In Cloud native software development, efficiency and agility are paramount. Trad
 
 The guiding principles of GitOps are simple to articulate: A single source of the truth shall be maintained in the Git repository. Automation will be used to apply any changes committed to the Git repository. Any manual changes to an environment will be reverted automatically.In this blog, we will delve into the concept of GitOps, its benefits, and how it is transforming the way organizations manage their software & infrastructure.<br/>
 ## Principles of GitOps
+The core tenets of GitOps focus on declarative configuration, versioning, collaboration, and automation. It brings together development and operations teams, fostering a unified and efficient approach to continuous delivery. The key principles of GitOps include: 
+** Infrastructure as Code (IaC): Infrastructure is defined and managed using tools like Terraform, Helm charts, or YAML manifests. These files declaratively state the desired state, making it machine-readable and repeatable.<br/>
+** Single Source of Truth : The Git repository serves as the sole source of truth for infrastructure configuration & application code. This ensures consistency across environments and facilitates collaboration among teams. <br/>
