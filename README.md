@@ -10,7 +10,7 @@ The guiding principles of GitOps are simple to articulate: A single source of th
 The below diagram summarizes GitOps clearly ([Source : VMWare](https://blogs.vmware.com/cloud/files//2021/02/GitOps-in-a-nutshell.png)) <br/><br/>
 ![image](https://github.com/somrajroy/GitOps/assets/92582005/8bdcba54-4767-478e-b410-bc79b0a5e508) <br/><br/>
 
-As per the diagram, virtually everything in a GitOps workflow related to the software development and deployment process is stored in repository: <br/>
+As per the diagram, virtually everything in a GitOps workflow related to the software development and deployment process is stored in repository. Embracing GitOps may require a shift in mindset from traditional infrastructure management. Customers/Teams need to adopt a declarative, version-controlled approach to define and manage application & infrastructure, which may be a departure from their existing practices. <br/>
 * `Infrastructure as Code (IaC)`: These are infra configs (e.g. terraform code). It enables teams to apply version control, collaboration, compliance and CI/CD practices to infrastructure management.<br/>
 * `Configurations`: These are the settings and parameters that control the behavior of applications and infrastructure. In a GitOps workflow, configurations are version-controlled and managed alongside the code, ensuring consistency and traceability. <br/>
 * `Application code`: This is the actual code of the applications being developed. In GitOps, the application code is maintained in a version control system, often alongside the IaC and configurations, to ensure a unified approach to versioning and changes.<br/>
