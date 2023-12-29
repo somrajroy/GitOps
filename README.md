@@ -1,4 +1,4 @@
-# Understanding GitOps :  Faster, More Efficient Software Development &amp; Streamlining DevOps Workflows<br/>
+# Understanding GitOps :  A Git-centric framework for continuous deployment for faster, More Efficient Software Development &amp; Streamlining DevOps Workflows<br/>
 ## Introduction
 GitOps is a relatively new approach to software development that combines Git, the popular version control system, with the automation of DevOps. It emphasizes the use of Git as a single source of truth for both infrastructure and application code, allowing teams to manage their entire development lifecycle from within Git. In this short blog post, we will explore what GitOps is all about, its key principles, benefits, and how customers can implement it in their organization. <br/>
 
@@ -30,4 +30,11 @@ The core tenets of GitOps focus on declarative configuration, versioning, collab
 
 ## How GitOps Leverages Version Control Systems (How GitOps Leverages Git for Infrastructure Management)
 GitOps leverages version control systems, with Git being the most commonly used, to manage the entire lifecycle of infrastructure and application deployments. By storing infrastructure configurations and deployment manifests in Git, GitOps enables versioning, collaboration, and traceability throughout the development and deployment process.
+
+## Benefits of GitOps
+
+Automated delivery pipelines roll out changes to application & infrastructure when changes are pushed to Git. But the idea of GitOps goes further than that – it uses tools to compare the actual production state of whole application with what’s under source control and then it highlights when actual state does not match the declared state in Git. <br/>
+![image](https://github.com/somrajroy/GitOps/assets/92582005/135b5e60-c0e7-450d-bd9c-38c78a441845)
+<br/>
+
 
