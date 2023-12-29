@@ -11,7 +11,7 @@ The below diagram summarizes GitOps clearly ([Source : VMWare](https://blogs.vmw
 ![image](https://github.com/somrajroy/GitOps/assets/92582005/8bdcba54-4767-478e-b410-bc79b0a5e508) <br/><br/>
 
 As per the diagram, virtually everything in a GitOps workflow related to the software development and deployment process is stored in repository: <br/>
-* Infrastructure as Code (IaC)`: These are infra configs (e.g. terraform code). It enables teams to apply version control, collaboration, compliance and CI/CD practices to infrastructure management.<br/>
+* `Infrastructure as Code (IaC)`: These are infra configs (e.g. terraform code). It enables teams to apply version control, collaboration, compliance and CI/CD practices to infrastructure management.<br/>
 * `Configurations`: These are the settings and parameters that control the behavior of applications and infrastructure. In a GitOps workflow, configurations are version-controlled and managed alongside the code, ensuring consistency and traceability. <br/>
 * `Application code`: This is the actual code of the applications being developed. In GitOps, the application code is maintained in a version control system, often alongside the IaC and configurations, to ensure a unified approach to versioning and changes.<br/>
 * `CI/CD pipeline`: CI/CD pipelines define the automated steps that code changes go through from development to production. In GitOps, these pipelines are also treated as code and versioned, allowing for automated, repeatable and reliable processes.<br/>
