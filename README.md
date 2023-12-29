@@ -5,6 +5,12 @@ GitOps is a relatively new approach to software development that combines Git, t
 In Cloud native software development, efficiency and agility are paramount. Traditional methods of software deployment and management often lead to bottlenecks, delays, and inconsistencies. This is where GitOps comes into play. It is a set of practices and principles that utilize version control systems, such as Git, to manage and automate the deployment and operation of applications and infrastructure. GitOps is a modern approach to software delivery and operations that harnesses the power of version control systems, such as Git, to streamline the development and deployment process. GitOps treats infrastructure as code and uses Git as a single source of truth for managing both application code and infrastructure configurations. This means that instead of using separate tools for managing infrastructure and application code, teams can use Git to manage everything from code changes to infrastructure deployments. By doing so, GitOps enables organizations to streamline their development process, improve collaboration between teams, and reduce errors caused by manual processes.<br/>
 
 The guiding principles of GitOps are simple to articulate: A single source of the truth shall be maintained in the Git repository. Automation will be used to apply any changes committed to the Git repository. Any manual changes to an environment will be reverted automatically.In this blog, we will delve into the concept of GitOps, its benefits, and how it is transforming the way organizations manage their software & infrastructure.<br/>
+## GitOps in a nutshell.
+
+The below diagram summarizes GitOps clearly ([Source : VMWare](https://blogs.vmware.com/cloud/files//2021/02/GitOps-in-a-nutshell.png)) <br/>
+![image](https://github.com/somrajroy/GitOps/assets/92582005/8bdcba54-4767-478e-b410-bc79b0a5e508) <br/>
+
+
 ## Principles of GitOps
 The core tenets of GitOps focus on declarative configuration, versioning, collaboration, and automation. It brings together development and operations teams, fostering a unified and efficient approach to continuous delivery. The key principles of GitOps include: <br/><br/>
 * `Infrastructure as Code (IaC)`: Infrastructure is defined and managed using tools like Terraform, Helm charts, or YAML manifests. These files declaratively state the desired state, making it machine-readable and repeatable.<br/>
