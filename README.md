@@ -53,8 +53,9 @@ For nimble teams, iterative development, and rapid deployments, the push approac
 
 Normally for complex environments, highly regulated deployments, and a desire for declarative control, the pull approach offers stability and resilience. <br/>
 
-![image](https://github.com/somrajroy/GitOps/assets/92582005/ba7d16fa-346f-4d91-b59a-2d2e2923f373) <br/>
+![image](https://github.com/somrajroy/GitOps/assets/92582005/ba7d16fa-346f-4d91-b59a-2d2e2923f373) <br/><br/>
 
+In summary, the choice between the Push and Pull approaches depends on specific use case, the nature of environment, and security requirements. Both approaches offer advantages and can be used effectively to implement GitOps. <br/><br/>
 
 ## Benefits of GitOps
 
