@@ -11,6 +11,7 @@ The below diagrams summarizes GitOps clearly ([Source : VMWare](https://blogs.vm
 ![image](https://github.com/somrajroy/GitOps/assets/92582005/8bdcba54-4767-478e-b410-bc79b0a5e508) <br/><br/>
 ![image](https://github.com/somrajroy/GitOps/assets/92582005/c6ab8386-9a68-4ffc-a78c-f8fb5e58d99d)
  <br/><br/>
+![image](https://github.com/somrajroy/GitOps/assets/92582005/478c503a-d0b8-4fa9-aec7-31eb4e6c7e68) <br/><br/>
 
 
 As per the diagram, virtually everything in a GitOps workflow related to the software development and deployment process is stored in repository. Embracing GitOps may require a shift in mindset from traditional infrastructure management. Customers/Teams need to adopt a declarative, version-controlled approach to define and manage application & infrastructure, which may be a departure from their existing practices. <br/>
