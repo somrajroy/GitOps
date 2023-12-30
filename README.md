@@ -40,6 +40,7 @@ The core tenets of GitOps focus on declarative configuration, versioning, collab
 GitOps, as a methodology for managing infrastructure and application delivery, offers two distinct approaches: Pull-based and Push-based. Each approach has its characteristics and use cases, catering to different requirements and preferences. Both approaches use Git as the single source of truth for the desired state of the system. However, they differ in how changes to the desired state are applied to the system. <br/><br/>
 The pull approach provides better control, governance, and consistency, while the push approach offers simplicity, flexibility, and easier customization. By understanding the differences between these two approaches, developers can make an informed decision on which one is best suited for the project.<br/><br/>
 The true benefit of GitOps lies in combining these approaches strategically. Utilize pull-based operators for core infrastructure and application configurations, while leveraging push-based deployments for fast-paced development and experimentation. However there is no thub rule.<br/><br/>
+Hybrid Approaches: Many organizations strategically combine pull-based operators for core infrastructure with push-based deployments for fast-paced development. <br/><br/>
 Below artciles has details of these approaches and can help anyone decide.<br/>
 [Push vs. Pull in GitOps: Is There Really a Difference?](https://thenewstack.io/push-vs-pull-in-gitops-is-there-really-a-difference/)<br/>
 [Push vs Pull Deployment](https://coda.io/@kirtan-chavda/gitops/push-vs-pull-deployment-4)<br/>
@@ -55,7 +56,9 @@ Normally for complex environments, highly regulated deployments, and a desire fo
 ![image](https://github.com/somrajroy/GitOps/assets/92582005/ba7d16fa-346f-4d91-b59a-2d2e2923f373) <br/><br/>
 
 In summary, the choice between the Push and Pull approaches depends on specific use case, the nature of environment, and security requirements. Both approaches offer advantages and can be used effectively to implement GitOps. <br/><br/>
-
+## GitOps vs CICD
+While both GitOps and CI/CD involve using Git to manage changes and automate deployments, they differ in their focus, scope, approach, and key characteristics. They have distinct focuses and principles. While CI/CD is a subset of the software delivery lifecycle focused on automating the build and deployment of applications, GitOps extends these principles to the entire system, encompassing infrastructure, configurations, and application deployment in a declarative and continuous manner. GitOps leverages Git as the central hub for system configuration and state, promoting transparency, auditability, and resilience.<br/><br/>
+In essence, CI/CD is a foundation for automated application delivery. GitOps builds upon CI/CD principles and extends them to infrastructure management for a more comprehensive and reliable deployment strategy.
 ## Benefits of GitOps
 
 Automated delivery pipelines roll out changes to application & infrastructure when changes are pushed to Git. But the idea of GitOps goes further than that – it uses tools to compare the actual production state of whole application with what’s under source control and then it highlights when actual state does not match the declared state in Git. <br/><br/>
