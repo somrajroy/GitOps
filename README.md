@@ -41,6 +41,7 @@ GitOps leverages version control systems, with Git being the most commonly used,
 
 GitOps, as a methodology for managing infrastructure and application delivery, offers two distinct approaches: Pull-based and Push-based. Each approach has its characteristics and use cases, catering to different requirements and preferences. Both approaches use Git as the single source of truth for the desired state of the system. However, they differ in how changes to the desired state are applied to the system. <br/><br/>
 The pull approach provides better control, governance, and consistency, while the push approach offers simplicity, flexibility, and easier customization. By understanding the differences between these two approaches, developers can make an informed decision on which one is best suited for the project.<br/><br/>
+The true benefit of GitOps lies in combining these approaches strategically. Utilize pull-based operators for core infrastructure and application configurations, while leveraging push-based deployments for fast-paced development and experimentation. However there is no thub rule.<br/><br/>
 Below artciles has details of these approaches and can help anyone decide.<br/>
 [Push vs. Pull in GitOps: Is There Really a Difference?](https://thenewstack.io/push-vs-pull-in-gitops-is-there-really-a-difference/)<br/>
 [Push vs Pull Deployment](https://coda.io/@kirtan-chavda/gitops/push-vs-pull-deployment-4)<br/>
