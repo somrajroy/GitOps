@@ -1,4 +1,4 @@
-# Understanding GitOps :  A Git-centric framework for continuous deployment for faster, More Efficient Software Development &amp; Streamlining DevOps Workflows<br/>
+![image](https://github.com/somrajroy/GitOps/assets/92582005/55aecd7e-576c-4d19-bd26-6be7786074f9)![image](https://github.com/somrajroy/GitOps/assets/92582005/2ab4fb9f-0045-44fc-8a75-9c310256f54e)![image](https://github.com/somrajroy/GitOps/assets/92582005/01fa371f-1e9d-438e-8910-68d6f5e23ce4)# Understanding GitOps :  A Git-centric framework for continuous deployment for faster, More Efficient Software Development &amp; Streamlining DevOps Workflows<br/>
 ## Introduction
 GitOps is a relatively new approach to software development that combines Git, the popular version control system, with the automation of DevOps. It emphasizes the use of Git as a single source of truth for both infrastructure and application code, allowing teams to manage their entire development lifecycle from within Git. In this short blog post, we will explore what GitOps is all about, its key principles, benefits, and how customers can implement it in their organization. <br/>
 
@@ -58,7 +58,11 @@ Normally for complex environments, highly regulated deployments, and a desire fo
 In summary, the choice between the Push and Pull approaches depends on specific use case, the nature of environment, and security requirements. Both approaches offer advantages and can be used effectively to implement GitOps. <br/><br/>
 ## GitOps vs CICD
 While both GitOps and CI/CD involve using Git to manage changes and automate deployments, they differ in their focus, scope, approach, and key characteristics. They have distinct focuses and principles. While CI/CD is a subset of the software delivery lifecycle focused on automating the build and deployment of applications, GitOps extends these principles to the entire system, encompassing infrastructure, configurations, and application deployment in a declarative and continuous manner. GitOps leverages Git as the central hub for system configuration and state, promoting transparency, auditability, and resilience.<br/><br/>
-In essence, CI/CD is a foundation for automated application delivery. GitOps builds upon CI/CD principles and extends them to infrastructure management for a more comprehensive and reliable deployment strategy.
+In essence, CI/CD is a foundation for automated application delivery. GitOps builds upon CI/CD principles and extends them to infrastructure management for a more comprehensive and reliable deployment strategy.<br/><br/>
+
+![image](https://github.com/somrajroy/GitOps/assets/92582005/d87d435b-41dd-4cfa-8edc-87c5352a1709)<br/><br/>
+
+
 ## Benefits of GitOps
 
 Automated delivery pipelines roll out changes to application & infrastructure when changes are pushed to Git. But the idea of GitOps goes further than that – it uses tools to compare the actual production state of whole application with what’s under source control and then it highlights when actual state does not match the declared state in Git. <br/><br/>
