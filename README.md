@@ -66,7 +66,6 @@ In essence, CI/CD is a foundation for automated application delivery. GitOps bui
 ## Benefits of GitOps
 
 Automated delivery pipelines roll out changes to application & infrastructure when changes are pushed to Git. But the idea of GitOps goes further than that – it uses tools to compare the actual production state of whole application with what’s under source control and then it highlights when actual state does not match the declared state in Git. <br/><br/>
-![image](https://github.com/somrajroy/GitOps/assets/92582005/135b5e60-c0e7-450d-bd9c-38c78a441845)
-<br/><br/>
+
 
 
