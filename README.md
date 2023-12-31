@@ -67,5 +67,8 @@ In essence, CI/CD is a foundation for automated application delivery. GitOps bui
 
 Automated delivery pipelines roll out changes to application & infrastructure when changes are pushed to Git. But the idea of GitOps goes further than that – it uses tools to compare the actual production state of whole application with what’s under source control and then it highlights when actual state does not match the declared state in Git. <br/><br/>
 
+## Appendix
+Below are some additional resources and references for further learning: <br/>
 
+1. [What Are the GitOps Principles and How to Implement Them](https://www.danylkoweb.com/Blog/what-are-the-gitops-principles-and-how-to-implement-them-TB)<br/>
 
