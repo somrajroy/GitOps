@@ -71,4 +71,8 @@ Automated delivery pipelines roll out changes to application & infrastructure wh
 Below are some additional resources and references for further learning: <br/>
 
 1. [What Are the GitOps Principles and How to Implement Them](https://www.danylkoweb.com/Blog/what-are-the-gitops-principles-and-how-to-implement-them-TB)<br/>
+2. [GitOps—From beginner to professional](https://www.site24x7.com/learn/what-is-gitops.html)<br/>
+3. [What Is GitOps? How Git Can Make DevOps Even Better](https://codefresh.io/learn/gitops/)<br/>
+4. [Git best practices: Workflows for GitOps deployments](https://developers.redhat.com/articles/2022/07/20/git-workflows-best-practices-gitops-deployments#)<br/>
+5. [Do You Need GitOps?](https://medium.com/@rze.akbari/do-you-need-gitops-908b797437dc)<br/>
 
