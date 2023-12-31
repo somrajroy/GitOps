@@ -75,4 +75,8 @@ Below are some additional resources and references for further learning: <br/>
 3. [What Is GitOps? How Git Can Make DevOps Even Better](https://codefresh.io/learn/gitops/)<br/>
 4. [Git best practices: Workflows for GitOps deployments](https://developers.redhat.com/articles/2022/07/20/git-workflows-best-practices-gitops-deployments#)<br/>
 5. [Do You Need GitOps?](https://medium.com/@rze.akbari/do-you-need-gitops-908b797437dc)<br/>
+6. [What is GitOps, Practical GitOps CI/CD With Terraform and AWS](https://medium.com/@rkssh-daas/what-is-gitops-practical-gitops-ci-cd-with-terraform-and-aws-4d12a8796da8)<br/>
+7. [How to use GitOps to automate Terraform](https://opensource.com/article/23/1/automate-terraform-gitops)<br/>
+8. [https://www.weave.works/technologies/gitops/](https://thenewstack.io/4-core-principles-of-gitops/)<br/>
+9. [What Is GitOps](https://octopus.com/blog/what-is-gitops)<br/>
 
