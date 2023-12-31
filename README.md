@@ -43,6 +43,7 @@ Hybrid Approaches: Many organizations strategically combine pull-based operators
 Below artciles has details of these approaches and can help anyone decide.<br/>
 [Push vs. Pull in GitOps: Is There Really a Difference?](https://thenewstack.io/push-vs-pull-in-gitops-is-there-really-a-difference/)<br/>
 [Push vs Pull Deployment](https://coda.io/@kirtan-chavda/gitops/push-vs-pull-deployment-4)<br/>
+[GitOps Approach: Pull Vs Push](https://www.devopsschool.com/blog/gitops-approach-pull-vs-push/)<br/>
 
 ### Push approach
 For nimble teams, iterative development, and rapid deployments, the push approach provides agility and direct control. <br/>
