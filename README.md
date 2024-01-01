@@ -48,7 +48,7 @@ Below artciles has details of these approaches and can help anyone decide.<br/>
 ### Push approach (Agile Interludes)
 For nimble teams, iterative development, and rapid deployments, the push approach provides agility and direct control. <br/>
 ![image](https://github.com/somrajroy/GitOps/assets/92582005/2e1780a1-4e9f-4e3c-adf0-9f13147dd7b0)<br/>
-### Definition
+#### Definition
 CI/CD pipelines directly push changes to the target environment : Developer commits changes to Git and CI/CD pipeline builds, tests, and deploys changes to the target environment.<br/>
 ### Pull approach
 
