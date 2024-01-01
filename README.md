@@ -51,14 +51,23 @@ For nimble teams, iterative development, and rapid deployments, the push approac
 #### Definition
 CI/CD pipelines directly push changes to the target environment : Developer commits changes to Git and CI/CD pipeline builds, tests, and deploys changes to the target environment.<br/>
 #### Benefits
-  * Agile experimentation: Enables rapid iterations and quick deployments.
-  *  Simpler tooling: Often requires fewer specialized tools.
+  *   Agile experimentation: Enables rapid iterations and quick deployments.
+  *   Simpler tooling: Often requires fewer specialized tools.
   *   Direct control: Feels more immediate for those accustomed to hands-on approaches.
 ### Pull approach
 
 Normally for complex environments, highly regulated deployments, and a desire for declarative control, the pull approach offers stability and resilience. <br/>
 
 ![image](https://github.com/somrajroy/GitOps/assets/92582005/ba7d16fa-346f-4d91-b59a-2d2e2923f373) <br/><br/>
+
+#### Definition
+ A GitOps operator acts as a vigilant conductor, continuously monitoring a Git repository for changes in desired state : Developer commits changes to Git. Operator detects changes and initiates reconciliation. Operator updates the deployed environment to match the desired state.<br/>
+
+#### Benefits
+  *  Declarative: Infrastructure as code ensures clear, repeatable definitions.
+  *  Self-healing: Operator automatically reconciles discrepancies, promoting resilience.
+  *  Centralized control: Git repository becomes the single source of truth.
+  *  Enhanced audit trails: Changes are tracked and versioned in Git.
 
 In summary, the choice between the Push and Pull approaches depends on specific use case, the nature of environment, and security requirements. Both approaches offer advantages and can be used effectively to implement GitOps. <br/><br/>
 ## GitOps vs CICD
