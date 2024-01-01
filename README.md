@@ -45,10 +45,11 @@ Below artciles has details of these approaches and can help anyone decide.<br/>
 [Push vs Pull Deployment](https://coda.io/@kirtan-chavda/gitops/push-vs-pull-deployment-4)<br/>
 [GitOps Approach: Pull Vs Push](https://www.devopsschool.com/blog/gitops-approach-pull-vs-push/)<br/>
 
-### Push approach
+### Push approach (Agile Interludes)
 For nimble teams, iterative development, and rapid deployments, the push approach provides agility and direct control. <br/>
 ![image](https://github.com/somrajroy/GitOps/assets/92582005/2e1780a1-4e9f-4e3c-adf0-9f13147dd7b0)<br/>
-
+### Definition
+CI/CD pipelines directly push changes to the target environment : Developer commits changes to Git and CI/CD pipeline builds, tests, and deploys changes to the target environment.<br/>
 ### Pull approach
 
 Normally for complex environments, highly regulated deployments, and a desire for declarative control, the pull approach offers stability and resilience. <br/>
