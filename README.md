@@ -56,7 +56,7 @@ CI/CD pipelines directly push changes to the target environment : Developer comm
   *   Direct control: Feels more immediate for those accustomed to hands-on approaches.
 ### Pull approach
 
-Normally for complex environments, highly regulated deployments, and a desire for declarative control, the pull approach offers stability and resilience. <br/>
+In the pull-based deployment, an operator takes over the deployment pipeline (or more accurately it orchestrates the continuous reconciliation workflow rather than a conventional deployment pipeline). Normally for complex environments, highly regulated deployments, and a desire for declarative control, the pull approach offers stability and resilience. <br/>
 
 ![image](https://github.com/somrajroy/GitOps/assets/92582005/ba7d16fa-346f-4d91-b59a-2d2e2923f373) <br/><br/>
 
