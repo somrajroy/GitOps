@@ -50,6 +50,10 @@ For nimble teams, iterative development, and rapid deployments, the push approac
 ![image](https://github.com/somrajroy/GitOps/assets/92582005/2e1780a1-4e9f-4e3c-adf0-9f13147dd7b0)<br/>
 #### Definition
 CI/CD pipelines directly push changes to the target environment : Developer commits changes to Git and CI/CD pipeline builds, tests, and deploys changes to the target environment.<br/>
+#### Benefits
+  * Agile experimentation: Enables rapid iterations and quick deployments.
+  *  Simpler tooling: Often requires fewer specialized tools.
+  *   Direct control: Feels more immediate for those accustomed to hands-on approaches.
 ### Pull approach
 
 Normally for complex environments, highly regulated deployments, and a desire for declarative control, the pull approach offers stability and resilience. <br/>
