@@ -97,4 +97,7 @@ Below are some additional resources and references for further learning: <br/>
 7. [How to use GitOps to automate Terraform](https://opensource.com/article/23/1/automate-terraform-gitops)<br/>
 8. [4 Core Principles of GitOps](https://thenewstack.io/4-core-principles-of-gitops/)<br/>
 9. [What Is GitOps](https://octopus.com/blog/what-is-gitops)<br/>
+10. [Guide to GitOps and benefits](https://www.weave.works/technologies/gitops/)<br/>
+11. [What GitOps and why is it so important](https://www.techtarget.com/searchitoperations/definition/GitOps)<br/>
+12. [The benefits of GitOps workflows](https://about.gitlab.com/topics/gitops/gitops-best-practices/)<br/>
 
