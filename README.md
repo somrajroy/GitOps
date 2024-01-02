@@ -83,7 +83,15 @@ In essence, CI/CD is a foundation for automated application delivery. GitOps bui
 
 ## Benefits of GitOps
 
-Automated delivery pipelines roll out changes to application & infrastructure when changes are pushed to Git. But the idea of GitOps goes further than that – it uses tools to compare the actual production state of whole application with what’s under source control and then it highlights when actual state does not match the declared state in Git. <br/><br/>
+Automated delivery pipelines roll out changes to application & infrastructure when changes are pushed to Git. But the idea of GitOps goes further than that – it uses tools to compare the actual production state of whole application with what’s under source control and then it highlights when actual state does not match the declared state in Git. GitOps offers several  benefits that contribute to improved development, deployment, and management of applications. Other than what is mentioned in the links of the article, below are some additional benefits. <br/><br/>
+* `Improved Disaster Recovery`: As the entire system state is stored in Git, recovering from disasters becomes more manageable. In case of a catastrophic failure, the infrastructure and applications can be 
+   quickly redeployed based on the Git repository. <br/>
+* `Continuous Delivery and Automation`:  GitOps promotes continuous delivery by automating the deployment process. Changes pushed to the Git repository trigger automated workflows, reducing manual 
+     intervention and the likelihood of errors. <br/>
+* `Predictable Deployments and Rollbacks`: GitOps allows for predictable and reproducible deployments. If an issue arises, rolling back to a previous known state is as simple as reverting to a specific Git   
+   commit.<br/>
+* `Traceability and Auditing`: Changes made to the infrastructure and applications are recorded in the Git repository, offering complete traceability. This audit trail is valuable for compliance, debugging, and 
+   understanding the history of deployments.<br/>
 
 ## Appendix
 Below are some additional resources and references for further learning: <br/>
