@@ -10,6 +10,16 @@ Git is a “near universal” ingredient of software development & infrastructur
 
 One last thing to say before we start : GitOps scales for everyone & customers need not ditch any of their favorite tools. It's about amplifying their power with GitOps principles. Despite “Git” being right there in the name, GitOps doesn’t actually require the use of Git. GitOps doesn’t necessarily involve Git (no, really), nor does it require Kubernetes, the orchestration engine with which it’s regularly paired. Customers that are already invested in other version control software can implement GitOps as well. But Git is widely used with within the devops world to implement CI/CD, so most GitOps projects will end up using Git. GitOps is a way to enable a developer-centric experience for managing applications, [as Weaveworks, the company that coined the term “GitOps,” might say](https://www.weave.works/blog/what-is-gitops-really).<br/>
 
+## Who is this guide for ?
+
+This guide will be helpful for people at all levels and roles. <br/>
+
+1. `Adaptability & Wide Applicability` : All blog's content is designed to be applicable across various roles and experience levels, ensuring relevance for a diverse audience. Both newcomers  and seasoned 
+    professionals can benefit from industry standards & insights. <br/>
+2. `Fresher's and developers` : For freshers/developers, having an awareness of GitOps can prove beneficial in navigating modern software development projects. Understanding GitOps principles early on can 
+    contribute to more seamless collaboration and adherence to best practices.<br/>
+3. `Industry Best Practices`: The contents incorporates industry best practices, offering a benchmark to align with and implement in projects. Hence this has wide applicability. <br/>
+4. `People working on Proposals/RFP's` : Strengthen proposals with best industry pratices and actionable insights. This guide may belp in creating differentiated offerings with industry best practices. <br/> 
 
 ## GitOps in a nutshell.
 
